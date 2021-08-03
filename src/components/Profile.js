@@ -14,7 +14,7 @@ function Profil(){
         .then(res=>setListOfUser(res.data))
         .then(res=>setLoading(false))
         .catch(err=>console.log(err))
-    },[])
+    })
 
     return (
         <>
